@@ -1,0 +1,43 @@
+station_european_code	station_local_code	country_iso_code	country_name	station_name	station_start_date	station_end_date	type_of_station	station_ozone_classification	station_type_of_area	station_subcat_rural_back	street_type	station_longitude_deg	station_latitude_deg	station_altitude	station_city	lau_level1_code	lau_level2_code	lau_level2_name	EMEP_station
+BG0070A	Ko1	BG	BULGARIA	AIS Kopitoto	2009-01-01		Background		rural	near city		23.243900	42.637200	1323	Sofia				no
+BG0056A	Bs3	BG	BULGARIA	AIS Meden rudnik	1998-01-01		Background		suburban			27.389729	42.466946	28	Burgas				no
+BG0055A	StZag1	BG	BULGARIA	AIS Stara Zagora	1997-01-01		Traffic		urban		Unknown	25.632236	42.424446	220	Stara Zagora				no
+BG0072A	PV5	BG	BULGARIA	AMS Bania Starinna	2009-01-01		Traffic		urban		Wide street: L/H > 1.5	24.731000	42.145800	166	Plovdiv				no
+BG0074A	Vn4	BG	BULGARIA	AMS Batak-Varna	2010-01-01		Background		urban			27.541692	43.125858	51	Varna				no
+BG0058A	BG1	BG	BULGARIA	AMS Blagoevgrad	2006-01-01		Background		suburban			23.087782	42.014446	356	BLAGOEVGRAD				no
+BG0067A	Db1	BG	BULGARIA	AMS Dobrich	2009-01-01		Background		urban			27.493590	43.341100	225	DOBRICH				no
+BG0057A	GO1	BG	BULGARIA	AMS Gorna oriahovica	2006-01-01		Background		suburban			25.691952	43.125000	160	GORNA ORIAHOVICA				no
+BG0051A	Pld2	BG	BULGARIA	AMS Kamenitza	1997-01-01		Background	urban	urban		Highway: average speed vehicles > 80 km/h	24.778345	42.147781	166	Plovdiv				no
+BG0018A	Krj1	BG	BULGARIA	AMS Karjaly	1991-01-01		Background		urban		Highway: average speed vehicles > 80 km/h	25.373339	41.637779	240	Kardjaly				no
+BG0066A	Lv1	BG	BULGARIA	AMS Lovech	2009-01-01		Background		urban			24.424980	43.081270	200	LOVECH				no
+BG0040A	Sf2	BG	BULGARIA	AMS Nadejda-Sofia	1993-01-01		Background		suburban		Highway: average speed vehicles > 80 km/h	23.300280	42.732224	500	Sofia				no
+BG0071A	Ns1	BG	BULGARIA	AMS Nesebar	2009-01-01		Background		urban			27.718330	42.659720	30	NESEBAR				no
+BG0054A	Sf9	BG	BULGARIA	AMS Orlov most-Sofia	1992-06-30		Traffic	urban	urban		Wide street: L/H > 1.5	23.338058	42.690834	500	Sofia				no
+BG0073A	Sf.p	BG	BULGARIA	AMS Pavlovo	2009-01-01		Traffic		urban		Wide street: L/H > 1.5	23.153900	42.395700	615	Sofia				no
+BG0019A	Pl2	BG	BULGARIA	AMS Pleven	1991-01-01		Background		urban		Highway: average speed vehicles > 80 km/h	24.631681	43.411667	140	Pleven				no
+BG0043A	Vr2	BG	BULGARIA	AMS Rail. Station-Vratza	1993-01-01		Background	urban	urban		Highway: average speed vehicles > 80 km/h	23.558619	43.213612	350	Vratza				no
+BG0041A	DmGr3	BG	BULGARIA	AMS Rakovsky-Dimitrovgrad	1993-01-01		Background	urban	urban			25.600000	42.053886	103	Dimitrovgad				no
+BG0038A	Sh1	BG	BULGARIA	AMS Shumen	1992-01-01		Background		urban		Highway: average speed vehicles > 80 km/h	26.930010	43.272221	212	Shumen				no
+BG0069A	Sl1	BG	BULGARIA	AMS Sliven	2009-01-01		Traffic		urban		Wide street: L/H > 1.5	26.195800	42.400600	240	SLIVEN				no
+BG0065A	Sm2	BG	BULGARIA	AMS Smolian	2009-01-01		Traffic		urban		Wide street: L/H > 1.5	24.695550	41.589440	1268	Smolian				no
+BG0045A	Ru2	BG	BULGARIA	AMS Vazragdane-Ruse	1994-01-01		Background	urban	suburban		Highway: average speed vehicles > 80 km/h	25.976954	43.856941	50	Ruse				no
+BG0068A	Vd3	BG	BULGARIA	AMS Vidin	2010-01-01		Traffic		urban		Wide street: L/H > 1.5	22.875000	43.991600	35	Vidin				no
+BG0063A	Bs4	BG	BULGARIA	Burgas_DOAS	2006-01-01		Background		suburban			27.438335	42.518612	31	Burgas				no
+BG0044A	Bs1	BG	BULGARIA	D.Ezerovo	1993-09-01		Background	suburban	suburban		Highway: average speed vehicles > 80 km/h	27.366947	42.518055	17	Burgas				no
+BG0052A	Sf8	BG	BULGARIA	Drujba -Sofia	1997-01-01		Background	urban	suburban		Highway: average speed vehicles > 80 km/h	23.382515	42.673336	540	Sofia				no
+BG0026A	Gal1	BG	BULGARIA	Galabovo	1992-01-01		Background		urban			25.913343	42.154446	136	Galabovo				no
+BG0024A	Sf6	BG	BULGARIA	Gara Yana-Sofia	1992-01-01		Background		suburban		Highway: average speed vehicles > 80 km/h	23.546400	42.727501	577	Sofia				no
+BG0061A	Has	BG	BULGARIA	Haskovo	2006-01-01		Background		suburban			25.558619	41.934444	190	HASKOVO				no
+BG0013A	Dv1	BG	BULGARIA	Izvorite-Devnia	1990-01-01		Background	urban	suburban		Highway: average speed vehicles > 80 km/h	27.561121	43.220001	100	Devnia				no
+BG0050A	Sf7	BG	BULGARIA	Krasno Selo	1997-01-01		Background	urban	suburban		Highway: average speed vehicles > 80 km/h	23.282791	42.673889	590	Sofia				no
+BG0060A	Mon	BG	BULGARIA	Montana	2006-01-01		Background		suburban			23.223618	43.416111	160	MONTANA				no
+BG0025A	Pi1	BG	BULGARIA	Pirdop-RloE	1992-01-01		Background		urban		Highway: average speed vehicles > 80 km/h	24.186947	42.705555	800	Pirdop				no
+BG0039A	StZag1	BG	BULGARIA	REI Stara Zagora	1992-01-01		Background		urban			25.640560	42.427223	230	Stara Zagora				no
+BG0020A	VT1	BG	BULGARIA	RIoE Veliko Tarnovo	1991-01-01		Background		suburban			25.625841	43.077778	200	Veliko Tarnovo				no
+BG0032A	AsGr1	BG	BULGARIA	RIoE-Asenovgrad	1992-01-01		Background		urban			24.882515	42.014446	220	Asenovgrad				no
+BG0047A	Pz1	BG	BULGARIA	RIoE-Pazarjik	1994-01-01		Background		urban		Highway: average speed vehicles > 80 km/h	24.338615	42.193058	210	Pazarjik				no
+BG0034A	DV1	BG	BULGARIA	RioE-Dolny Voden	1992-01-01		Background		urban			24.837503	42.021946	257	Dolny Voden				no
+BG0053R	Ro1	BG	BULGARIA	Rojen peak	2002-01-01		Background	rural background	rural	remote	Highway: average speed vehicles > 80 km/h	24.738615	41.695835	1750					yes
+BG0049A	Pe3	BG	BULGARIA	Shahtjor-Pernik	1995-10-02		Traffic	urban	suburban		Highway: average speed vehicles > 80 km/h	23.035017	42.608334	695	Pernik				no
+BG0046A	Pe1	BG	BULGARIA	Tzarkva-Perkik	1994-01-01		Background		suburban		Highway: average speed vehicles > 80 km/h	23.124172	42.588055	770	Pernik				no
+BG0012A	Vn2	BG	BULGARIA	Yan Palah-Varna	1990-01-01		Traffic	urban	urban		Wide street: L/H > 1.5	27.897791	43.227222	60	Varna				no
