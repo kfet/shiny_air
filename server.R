@@ -62,7 +62,8 @@ elements <- list('PM10', 'PM2.5', 'NOX', 'NO2', 'Pb', 'Cd', 'CO', 'T-VOC')
 ses <- sofia_stats[sofia_stats$component_caption %in% elements, ]
 
 # Select the type of statistic: Max, Mean, P50, P95, P98, ...
-ses_mean <- ses[ses$statistic_shortname=='Mean',]
+# We now allow the user to chose the statistic to display
+ses_mean <- ses
 
 # Aggregate by year, component, and DB version (sum of means of each station)
 ses_mean_agg <- aggregate(ses_mean$statistic_value,
@@ -70,6 +71,7 @@ ses_mean_agg <- aggregate(ses_mean$statistic_value,
                             statistics_year=ses_mean$statistics_year,
                             component_caption=ses_mean$component_caption,
                             ver=ses_mean$ver,
+                            statistic_shortname=ses_mean$statistic_shortname,
                             measurement_unit=ses_mean$measurement_unit),
                         FUN=sum)
 
@@ -82,6 +84,7 @@ shinyServer(
         output$newGraphic <- renderPlot({
             # Means for the given component, and DB version
             mean_stats = ses_mean_agg[ses_mean_agg$ver == input$ver,]
+            mean_stats = mean_stats[mean_stats$statistic_shortname == input$stat,]
             mean_stats = mean_stats[mean_stats$component_caption == input$component,]
 
             # Read the measurement unit
@@ -94,5 +97,8 @@ shinyServer(
 
         # Render the DB version used
         output$newVersion <- renderText({input$ver})
+
+        # Render the statistic used
+        output$newStat <- renderText({input$stat})
     }
 )
