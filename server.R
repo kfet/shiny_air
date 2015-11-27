@@ -10,6 +10,14 @@
 
 library(shiny)
 
+# Pre-defined list of elements
+elements <- c("PM10", "PM2.5", "NO2", "Pb", "Cd", "CO")
+
+# Pre-defined limits on the elements
+# see http://ec.europa.eu/environment/air/quality/standards.htm
+limits <- c(40, 25, 40, 0.5, 5, 10)
+names(limits) <- elements
+
 #
 # Load the Sofia stations data
 #
@@ -27,7 +35,6 @@ stats <- read.table("data/AirBase_BG_v8/AirBase_BG_v8_statistics.csv", header = 
 sofia_stats <- stats[stats$station_european_code %in% sofia_codes_list,]
 
 # Filter on the elements we're interested in
-elements <- list('PM10', 'PM2.5', 'NO2', 'Pb', 'Cd', 'CO')
 ses <- sofia_stats[sofia_stats$component_caption %in% elements, ]
 
 # Select the type of statistic: Max, Mean, P50, P95, P98, ...
@@ -56,11 +63,23 @@ shinyServer(
 
             # Read the measurement unit
             measurement_unit = mean_stats[1,]$measurement_unit
+            limit = limits[input$component]
+
+            # Calculate range
+            value_max = max(max(mean_stats$statistic_value), limit)
+            value_min = min(min(mean_stats$statistic_value), limit)
+            value_range = value_max - value_min
+
+            # Extend max / min with 10% of range
+            value_min = value_min - value_range / 10
+            value_max = value_max + value_range / 10
 
             plot(mean_stats$statistics_year, mean_stats$statistic_value,
                  xlab = "Year", ylab = paste(input$component, "(", measurement_unit, ")"),
+                 ylim = c(value_min, value_max),
                  type = "b", col = mean_stats$component_caption, lwd = 3)
-        })
+            abline(h = limit, lwd = 3, col = "red")
+       } )
 
         # Render the statistic used
         output$newStat <- renderText({input$stat})
