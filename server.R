@@ -48,7 +48,7 @@ ses_mean_agg <- aggregate(ses_mean$statistic_value,
                             component_caption=ses_mean$component_caption,
                             statistic_shortname=ses_mean$statistic_shortname,
                             measurement_unit=ses_mean$measurement_unit),
-                        FUN=sum)
+                        FUN=mean)
 
 # Fix the value column name
 names(ses_mean_agg)[names(ses_mean_agg) == 'x'] <- 'statistic_value'

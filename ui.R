@@ -2,9 +2,11 @@ library(shiny)
 
 shinyUI(fluidPage(
     title = "AirBase - pollution in Sofia, Bulgaria",
-    # theme = "cerulean/bootstrap.min.css",
-    # theme = "darly/bootstrap.min.css",
+
     theme = "paper/bootstrap.min.css",
+    #   theme = "cerulean/bootstrap.min.css",
+    #   theme = "darly/bootstrap.min.css",
+
     # Application title
     titlePanel("AirBase version 8 - pollution in Sofia, Bulgaria"),
     sidebarLayout(
@@ -19,7 +21,7 @@ shinyUI(fluidPage(
                         selected = "PM10", selectize = F, size = 7)
         ),
         mainPanel = mainPanel(
-            h3("Sum of the selected statistic of all stations, by year"),
+            h3("Mean of the selected statistic between all stations, by year"),
             textOutput("newStat"),
             plotOutput("newGraphic")
         )
