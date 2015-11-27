@@ -29,5 +29,5 @@ shinyUI(fluidPage(
     fluidRow("Code: ", a("Shiny Air on GitHub", href = "https://github.com/kfet/shiny_air")),
     fluidRow("Data sources: ",
              a("AirBase v8, Data for Bulgaria", href = "http://www.eea.europa.eu/data-and-maps/data/airbase-the-european-air-quality-database-8"),
-             ", ", a("Air Quolity Standards", href = "http://ec.europa.eu/environment/air/quality/standards.htm"))
+             ", ", a("Air Quality Standards", href = "http://ec.europa.eu/environment/air/quality/standards.htm"))
 ))
