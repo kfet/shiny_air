@@ -13,7 +13,7 @@ shinyUI(fluidPage(
         sidebarPanel(
             h3("Statistic"),
             selectInput("stat", "",
-                        c("Max", "Mean", "P50", "P95", "P98"),
+                        c("Mean", "Max"),
                         selected = "Mean"),
             h3("Component"),
             selectInput("component", "",
@@ -21,7 +21,7 @@ shinyUI(fluidPage(
                         selected = "PM10", selectize = F, size = 7)
         ),
         mainPanel = mainPanel(
-            h3("Mean of the selected statistic between all stations, by year"),
+            h3("Selected statistic aggregated across all Sofia stations, by year"),
             textOutput("newStat"),
             plotOutput("newGraphic")
         )
