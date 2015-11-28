@@ -87,7 +87,7 @@ shinyServer(
             value_max = value_max + value_range / 10
 
             plot(agg_stats$statistics_year, agg_stats$statistic_value,
-                 xlab = "Year", ylab = paste(input$component, "(", measurement_unit, ")"),
+                 xlab = "Година", ylab = paste(input$component, "(", measurement_unit, ")"),
                  ylim = c(value_min, value_max),
                  type = "b", col = agg_stats$component_caption, lwd = 3)
             abline(h = limit, lwd = 3, col = "red")
