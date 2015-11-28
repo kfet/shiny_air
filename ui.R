@@ -1,3 +1,8 @@
+# Shiny Air 0.0.1
+# Homepage: https://github.com/kfet/shiny_air
+# Copyright 2015 Kalin Fetvadjiev, Ivaylo Hlebarov
+# Licensed under MIT
+
 library(shiny)
 
 shinyUI(fluidPage(

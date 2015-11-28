@@ -1,10 +1,14 @@
+# Shiny Air 0.0.1
+# Homepage: https://github.com/kfet/shiny_air
+# Copyright 2015 Kalin Fetvadjiev, Ivaylo Hlebarov
+# Licensed under MIT
 #
 #   Requires the following data files:
 #
-#       AirBAse Data v8 from 1998 to 2012
+#       AirBase Data v8 from 1998 to 2012
 #           data/AirBase_BG_v8/AirBase_BG_v8_stations.csv
 #           data/AirBase_BG_v8/AirBase_BG_v8_statistics.csv
-#               Extracted from AirBase v8 for Bulgaria, obrainable from:
+#               Extracted from AirBase v8 for Bulgaria, obtainable from:
 #               http://www.eea.europa.eu/data-and-maps/data/airbase-the-european-air-quality-database-8
 #
 
