@@ -8,7 +8,7 @@ Demo: [shiny_air](https://kfet.shinyapps.io/shiny_air) at shinyapps.io.
 
 The application displays an interactive graphic of the measurments of selected air pollutants, accross a number of years. Masurements are aggregated according to the selected function (mean, max) for the given year, and accros all the stations located in Sofia, Bulgara.
 
-The app imports the data in its native format, as provided in AirBase - The European air quality database. The data needs to extracted in a predefined directory first.
+The app imports the data in its native format, as provided in AirBase - The European air quality database. The data needs to be extracted in a predefined directory first.
 
 ### Requirements
 
