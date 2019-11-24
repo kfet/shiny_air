@@ -1,6 +1,6 @@
 # Shiny Air
 
-A [Shiny](http://shiny.rstudio.com) application for graphical exploration of the EU AirBase statiscs, specifically pollution in Sofia, Bulgaria.
+A [Shiny](http://shiny.rstudio.com) application for graphical exploration of the EU AirBase statistics, specifically pollution in Sofia, Bulgaria.
 
 Demo: [shiny_air](https://kfet.shinyapps.io/shiny_air) at shinyapps.io.
 
