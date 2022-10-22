@@ -1,0 +1,9 @@
+name: shiny_air
+account: kfet
+server: shinyapps.io
+appId: 70735
+bundleId: 320239
+url: https://kfet.shinyapps.io/shiny_air
+when: 1448701976.0598
+asMultiple: FALSE
+asStatic: FALSE
